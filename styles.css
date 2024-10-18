@@ -1,4 +1,29 @@
+body{
+    display: flex;
+    max-height: 100vh;
+    margin: 0;
+}
+.background-image{
+    height: 100%;
+    width: 800px;
+}
+.logo{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 100px;
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+}
 p{
     font-family: "New Rocker", system-ui;
     font-size: 36px;
+    color: black;
+}
+#logo-text{
+    color: white;
+}
+.left{
+    position: relative;
 }
