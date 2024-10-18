@@ -13,32 +13,54 @@
     <div class="left">
         <img src="photos/Background-photo.jpg" alt="Background-photo" class="background-image">
         <div class="logo">
-            <img src="photos/odin-lined.png" alt="logo">
+            <img src="photos/odin-lined.png" alt="logo" id="logo-photo">
             <p id="logo-text">ODIN</p>
         </div>
 
     </div>
 
-    <div>
+    <div class="right">
         <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.</p>
         <fieldset>
             <form action="">
                 <p>Let's do this!</p>
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name">
-                <input type="text" id="last-name">
-                <label for="last-name">LAST NAME</label>
-                <input type="email" id="email">
-                <label for="email">EMAIL</label>
-                <input type="tel" id="phone">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="password" id="password">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="confirm-password">
-                <label for="confirm-password">CONFIRM PASSWORD</label>
-                <button type="submit">CREATE ACCOUNT</button>
+
+                <div class="rows">
+                    <div class="credentials">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name">
+                    </div>
+                    <div class="credentials">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name">
+                    </div>
+                </div>
+
+                <div class="rows">
+                    <div class="credentials">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="credentials">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone">
+                    </div>
+                </div>
+
+                <div class="rows">
+                    <div class="credentials">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password">
+                    </div>
+                    <div class="credentials">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password">
+                    </div>
+                </div>
             </form>
         </fieldset>
+
+        <button type="submit">CREATE ACCOUNT</button>
         <p>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Log in</a></p>
     </div>
 </body>
