@@ -2,6 +2,8 @@ body{
     display: flex;
     max-height: 100vh;
     margin: 0;
+    padding: 0;
+    background-color: rgb(250, 250 , 245);
 }
 .left{
     position: relative;
@@ -21,25 +23,76 @@ body{
 }
 #logo-text{
     color: white;
+    font-family: "New Rocker", system-ui;
+    font-size: 36px;
 }
 #logo-photo{
     height: 150px;
 }
 
+
 .right{
-    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
 }
 .rows{
     display: flex;
-    justify-content: space-around;
 }
 .credentials{
     display: flex;
     flex-direction: column;
+    margin: 10px 100px 10px 50px;
+}
+fieldset{
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px -10px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
-p{
-    font-family: "New Rocker", system-ui;
-    font-size: 36px;
-    color: black;
+input{
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+}
+
+#confirm-password:invalid,#password:invalid{
+    border-color: rgba(255, 0, 0, 0.5);
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid blue;
+    outline: none;
+}
+.right p{
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+}
+#question{
+    font-weight: 500;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    width: 250px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #596D48;
+    color: white;
+    font-size: large;
+    font-weight: 900;
 }
