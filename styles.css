@@ -29,7 +29,16 @@ body{
 #logo-photo{
     height: 150px;
 }
-
+.footer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+#credit{
+    color: white;
+}
 
 .right{
     display: flex;
@@ -83,6 +92,10 @@ input:focus{
 }
 a{
     text-decoration: none;
+    color: red;
+}
+a:visited{
+    color: red;
 }
 button{
     width: 250px;
