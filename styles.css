@@ -13,6 +13,7 @@ html, body{
     height: 100%;
     width: 750px;
 }
+
 .logo{
     background-color: rgba(0, 0, 0, 0.3);
     position: absolute;
