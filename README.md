@@ -1,4 +1,4 @@
 # Sign-up-Form
 
-Made a sign up form using html and css.
+This project is a sign up form page. Made with html and css.
 preview link: https://kaankarabiber.github.io/Sign-up-Form/
